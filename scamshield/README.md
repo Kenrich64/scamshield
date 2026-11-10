@@ -1,8 +1,13 @@
 # ScamShield — Explainable, Obfuscation-Robust SMS Scam Detection for India
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=flat&logo=vercel)](https://scamshield-liard.vercel.app)
+
+**Live Web App**: [https://scamshield-liard.vercel.app](https://scamshield-liard.vercel.app)
+
 NLP mini-project. Builds on Ozoh et al. (2025) (SMS spam, TF-IDF + MLP) and extends it with
 Indian-context scams, obfuscation-robustness evaluation and retrieval-based explanations
 (inspired by SmishX, Wang et al., SOUPS 2025).
+
 
 ## Pipeline
 SMS -> preprocessing (URL/phone/amount tokens, optional normalization) -> word+char TF-IDF -> Logistic Regression
